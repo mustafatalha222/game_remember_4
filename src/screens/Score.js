@@ -14,7 +14,7 @@ export default function Score({ navigation }) {
 
   return (
     <View style={{ backgroundColor: Colors.greyBg, ...styles.centerScreen }}>
-      <StatusBar />
+      <StatusBar backgroundColor="black" />
       <View
         style={{
           ...styles.outlineBorder,

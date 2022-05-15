@@ -11,7 +11,7 @@ import { Images, styles } from "../utils";
 export default function Wrapper({ children, showCorners, heading, backImg }) {
   return (
     <View style={{ flex: 1 }}>
-      <StatusBar />
+      <StatusBar backgroundColor="black" />
       <ImageBackground
         style={{ ...styles.imageBg }}
         source={backImg}
